@@ -20,3 +20,9 @@ console.log(bootstrap);
 //     },
 //   });
 // });
+
+$(document).ready(function () {
+  $(".promo-title").mouseover(function () {
+    $(this).addClass("animate__animated animate__tada");
+  });
+});
